@@ -1,0 +1,2 @@
+aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/modp_b64 S_MODP_B64) 
+set(O_UTILS ${O_UTILS} ${S_MODP_B64} PARENT_SCOPE)

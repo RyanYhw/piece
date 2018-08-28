@@ -1,0 +1,9 @@
+#ifndef ONEPIECE_BASE_HASH_HASH_H_
+#define ONEPIECE_BASE_HASH_HASH_H_
+
+// 将LITTLE_ENDIAN的设置放到CMakeLists中
+#ifndef ENDIAN_LITTLE
+#define ENDIAN_LITTLE 1
+#endif
+
+#endif  // ONEPIECE_BASE_HASH_HASH_H_

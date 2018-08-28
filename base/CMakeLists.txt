@@ -1,0 +1,6 @@
+aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/encoding S_ENCODING) 
+aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/crypto S_CRYPTO) 
+aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/hash S_HASH)
+aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/time S_TIME)
+aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/ext S_EXT)
+set(O_BASE ${O_BASE} ${S_ENCODING} ${S_CRYPTO} ${S_HASH} ${S_TIME} ${S_EXT} PARENT_SCOPE)
